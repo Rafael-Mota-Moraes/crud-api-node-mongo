@@ -18,9 +18,7 @@ app.get("/", (req, res) => {
 });
 
 mongoose
-  .connect(
-    "mongodb+srv://rafaelmota622:99032686@cluster0.hoitr.mongodb.net/api-rest?retryWrites=true&w=majority"
-  )
+  .connect("")
   .then(() => {
     console.log("Conectado ao banco de dados");
     app.listen(3000);
