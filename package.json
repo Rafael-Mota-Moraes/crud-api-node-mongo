@@ -1,0 +1,25 @@
+{
+  "name": "crud-api-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael-Mota-Moraes/crud-api-node-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafael-Mota-Moraes/crud-api-node-mongo/issues"
+  },
+  "homepage": "https://github.com/Rafael-Mota-Moraes/crud-api-node-mongo#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}
